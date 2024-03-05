@@ -1,0 +1,9 @@
+[submodule "webservice_auth_api"]
+	path = webservice_auth_api
+	url = https://github.com/nicolas-lepinay/webservice_auth_api.git
+[submodule "webservice_films_api"]
+	path = webservice_films_api
+	url = https://github.com/nicolas-lepinay/webservice_films_api.git
+[submodule "webservice_reservation_api"]
+	path = webservice_reservation_api
+	url = https://github.com/nicolas-lepinay/webservice_reservation_api.git
