@@ -32,10 +32,20 @@ services:
       - NODE_ENV=production
       - AUTH_API_URL=http://auth-api
       - FILM_API_URL=http://movies-api
-      - RESERVATION_API_URL=http://reservations-api
+      - RESERVATION_API_URL=http://reservations-api  
   rabbitmq:
     image: rabbitmq:3.12-management
     container_name: rabbitmq
     ports:
       - "5672:5672"
       - "15672:15672"
+    healthcheck:
+        test: rabbitmq-diagnostics -q ping
+        interval: 20s
+        timeout: 20s
+        retries: 3
+  mail:
+    build: ./webservice_mail
+    depends_on:
+      rabbitmq:
+        condition: service_healthy

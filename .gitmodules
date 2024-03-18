@@ -7,3 +7,6 @@
 [submodule "webservice_reservation_api"]
 	path = webservice_reservation_api
 	url = https://github.com/nicolas-lepinay/webservice_reservation_api.git
+[submodule "webservice_mail"]
+	path = webservice_mail
+	url = https://github.com/nicolas-lepinay/webservice_mail.git
