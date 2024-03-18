@@ -7,7 +7,8 @@ A la racine, lancer "docker-compose build" puis "docker-compose up".
 Se connecter au site web [Ethereal.email](https://ethereal.email/login)
   * Identifiant : johan98@ethereal.email
   * Mot de passe : ZthnM2tFTMZgu8mt4R
-\ Consulter ses e-mails à l'URL [Ethereal.email/messages](https://ethereal.email/messages)
+    
+Consulter ses e-mails à l'URL [Ethereal.email/messages](https://ethereal.email/messages)
 
 👉 Contributeurs : \
 Injin KIM, Nicolas Lépinay, Matéo Palmiera
